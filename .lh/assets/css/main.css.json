@@ -1,0 +1,26 @@
+{
+    "sourceFile": "assets/css/main.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1720522080663,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1720522138258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,7 @@\n .header {\r\n   height: 120px;\r\n   background-image: linear-gradient(0, #fe6332, #f53f2d);\r\n }\r\n+.header__navbar-list{\r\n+    list-style: none;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1720522192317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,4 +4,7 @@\n }\r\n .header__navbar-list {\r\n   list-style: none;\r\n }\r\n+.header__navber-item{\r\n+    display: flex;\r\n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1720522080663,
+            "name": "Commit-0",
+            "content": ".header{\r\n    height: 120px;\r\n    background-image: linear-gradient(0, #fe6332, #f53f2d);\r\n}"
+        }
+    ]
+}

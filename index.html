@@ -3,10 +3,92 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/font/fontawesome-free-6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>hello</h1>
+    <div class="app">
+      <div class="header">
+        <div class="grid">
+          <nav class="header__navbar">
+            <ul class="header__navbar-list">
+              <li
+                class="header__navbar-item header__navbar-item--show-qr header__navbar-item--separate"
+              >
+                Vào của hàng shopee
+                <div class="header__qr">
+                  <img
+                    class="header__qr-img"
+                    src="/assets//img//qr-code.png"
+                    alt="QR code"
+                  />
+                  <div class="header__qr-apps">
+                    <a href="#" class="header__qr-link">
+                      <img
+                        class="header__qr-download-img"
+                        src="/assets/img/chplay.png"
+                        alt="Google Play"
+                      />
+                    </a>
+                    <a href="#" class="header__qr-link">
+                      <img
+                        class="header__qr-download-img"
+                        src="/assets/img/app-store.png"
+                        alt="App Store"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="header__navbar-item">
+                <span class="header__navbar-title--no-pointer"> Kết nối</span>
+                <a href="" class="header__navbar-icon-link"
+                  ><i class="header__navbar-icon fa-brands fa-facebook"></i
+                ></a>
+                <a href="" class="header__navbar-icon-link"
+                  ><i class="header__navbar-icon fa-brands fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+            <ul class="header__navbar-list">
+              <li class="header__navbar-item">
+                <i class="header__navbar-icon fa-regular fa-bell"></i>
+                <a href="#" class="header__navbar-item-link">Thông báo</a>
+              </li>
+              <li class="header__navbar-item">
+                <i
+                  class="header__navbar-icon fa-regular fa-circle-question"
+                ></i>
+                <a href="#" class="header__navbar-item-link">Trợ giúp</a>
+              </li>
+
+              <li
+                class="header__navbar-item header__navbar-item--strong header__navbar-item--separate"
+              >
+                Đăng ký
+              </li>
+              <li class="header__navbar-item header__navbar-item--strong">
+                Đăng nhập
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="container"></div>
+      <div class="footer"></div>
+    </div>
   </body>
 </html>

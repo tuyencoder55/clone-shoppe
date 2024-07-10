@@ -1,0 +1,26 @@
+{
+    "sourceFile": "assets/css/base.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1720509575066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1720509621279,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,4 +2,8 @@\n   --white-color: #fff;\r\n   --black-color: #000;\r\n   --text-color: #333;\r\n }\r\n+\r\n+*{\r\n+    box-sizing: inherit;\r\n+}\r\n"
+                },
+                {
+                    "date": 1720509803867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,4 +6,8 @@\n \r\n * {\r\n   box-sizing: inherit;\r\n }\r\n+html{\r\n+    font-size: 62.5%;\r\n+    line-height: 1.6rem;\r\n+}\r\n"
+                }
+            ],
+            "date": 1720509575066,
+            "name": "Commit-0",
+            "content": ":root{\r\n    --white-color:#fff;\r\n    --black-color:#000;\r\n    --text-color:#333;\r\n}"
+        }
+    ]
+}
